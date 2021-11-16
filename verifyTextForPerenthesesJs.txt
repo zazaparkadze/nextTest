@@ -27,7 +27,7 @@ If (str.match(/[\(\)\[\]\<\>]/g) == null) { return 1; }
 	let sLength = s.length;
 	if (sLength % 2 !==0) { return 0;}
 	let i = 0;
-	while (i < sLength - 2) {
+	while (i <= sLength - 2) {
 if (
 (s.charAt(i) == “(“  &&  s.charAt(i+1) == “)”)  ||
 (s.charAt(i) ==”[“ && s.charAt(i+1) == “]”)  ||
